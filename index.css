@@ -1,0 +1,59 @@
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    margin:5px;
+    border:2px solid brown;
+}
+.nav-items{
+    display:flex;
+}
+.nav-items>ul{
+      display:flex;
+      margin:25px;
+}
+.login-button{
+    border:2px solid blue;
+    background-color:rgb(9,9,24);
+    color:white;
+    width:70px;
+    height:50px;
+    margin-top:10px;
+    margin-right:10px;
+}
+.res-image{
+    width:300px;
+    margin:200px;
+}
+.image{
+    width:70px;
+    margin:3px;
+}
+.res-card-container{
+    border:2px solid black;
+    width:fit-content;
+    background-color:darkgrey;
+    border-radius:4px;
+    display:grid;
+    place-items:center;
+}
+.res-text{
+    text-align:center;
+}
+.res-button{
+    background-color:royalblue;
+    margin:10px;
+    padding:10px;
+    text-align:center;
+}
+.rescards{
+    flex-wrap:wrap;
+    display:flex;
+    margin:25px;
+}
+.search{
+    border:2px red;
+}
+nav>ul>li{
+    margin:10px;
+    list-style: none;
+}
